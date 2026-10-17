@@ -4,7 +4,8 @@
 **Unidade III:** Grafos\
 **Professora:** Kadidja Valéria\
 **Conteúdo-base:** Capítulo 1 - Conceitos Fundamentais\
-**Duração prevista:** atividades distribuídas ao longo da aula de 2 horas
+**Duração prevista:** atividades distribuídas ao longo da aula de 2
+horas
 
 ------------------------------------------------------------------------
 
@@ -27,11 +28,16 @@ Ao final das atividades, você deverá ser capaz de:
 ## 2. Orientações gerais
 
 1.  Leia o enunciado antes de iniciar o desenho.
-2.  Quando solicitado, registre primeiro os conjuntos de vértices `V` e de arestas `E`.
-3.  Utilize círculos ou pontos para representar vértices e linhas/setas para representar arestas.
-4.  Em grafos dirigidos, a seta deve indicar claramente a origem e o destino.
-5.  Não entregue somente o desenho: apresente também as respostas e justificativas solicitadas.
-6.  Quando utilizar uma plataforma digital, registre uma captura de tela ou o link da atividade.
+2.  Quando solicitado, registre primeiro os conjuntos de vértices `V` e
+    de arestas `E`.
+3.  Utilize círculos ou pontos para representar vértices e linhas/setas
+    para representar arestas.
+4.  Em grafos dirigidos, a seta deve indicar claramente a origem e o
+    destino.
+5.  Não entregue somente o desenho: apresente também as respostas e
+    justificativas solicitadas.
+6.  Quando utilizar uma plataforma digital, registre uma captura de tela
+    ou o link da atividade.
 
 ------------------------------------------------------------------------
 
@@ -47,30 +53,27 @@ Considere:
 
 ### Faça
 
-1.  Desenhe o grafo.
-2.  Identifique o número de vértices.
+1.  Desenhe o grafo. 
+2.  Identifique o número de vértices. 
 3.  Identifique o número de arestas.
 4.  Determine a ordem `|V|`.
 5.  Determine o tamanho `|E|`.
 6.  Identifique se existe laço.
 7.  Determine o grau de cada vértice.
 
-> **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é contado duas vezes.
-
-### Respostas
-
--   **Ordem** `|V| = 5`
--   **Tamanho** `|E| = 6`
-
-| Vértice | Grau |
-|---------|------|
-| 1       | 3    |
-| 2       | 2    |
-| 3       | 2    |
-| 4       | 4    |
-| 5       | 1    |
-
-![Grafo](https://graphonline.top/tmp/saved/My/MywOOGjinBkWNCtb.png)
+> **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
+> contado duas vezes.
+>
+> ### Ordem |V| = 5.
+> ### Tamanho |E| = 6.
+> 1. Grau do vértice 1 = 3.
+> 2. Grau do vértice 2 = 2.
+> 3. Grau do vértice 3 = 2.
+> 4. Grau do vértice 4 = 4.
+> 5. Grau do vértice 5 = 1.
+>
+>    
+> ![Grafo](https://graphonline.top/tmp/saved/My/MywOOGjinBkWNCtb.png)
 
 ### Plataformas
 
@@ -90,18 +93,19 @@ Utilize o grafo construído na Atividade 1.
 
 1.  Liste os vértices adjacentes a cada vértice.
 2.  Informe quais arestas são incidentes em cada vértice.
-3.  Escolha dois vértices adjacentes e explique por que são considerados vizinhos.
+3.  Escolha dois vértices adjacentes e explique por que são considerados
+    vizinhos.
 4.  Escolha dois vértices não adjacentes e justifique sua resposta.
 
 ### Registro
 
-| Vértice | Vértices adjacentes | Arestas incidentes   |
-|---------|---------------------|----------------------|
-| 1       | 2, 4 e 5            | (1,2), (1,4) e (1,5) |
-| 2       | 1 e 3               | (1,2) e (2,3)        |
-| 3       | 2 e 4               | (2,3) e (3,4)        |
-| 4       | 1, 3 e 4            | (1,4), (3,4) e (4,4) |
-| 5       | 1                   | (1,5)                |
+| Vértice | Vértices adjacentes | Arestas incidentes          |
+|---------|---------------------|-----------------------------|
+| 1       | 2, 4 e 5            | (1,2), (1,4) e (1,5)        |
+| 2       | 1 e 3               | (1,2) e (2,3)               |
+| 3       | 2 e 4               | (2,3) e (3,4)               |
+| 4       | 1, 3 e 4            | (1,4), (3,4) e (4,4)        |
+| 5       | 1                   | (1,5)                       |
 
 ### Plataformas
 
@@ -134,15 +138,13 @@ Crie uma pequena rede de amizades entre essas pessoas.
 ### Questão para reflexão
 
 **O que os vértices e as arestas representam nesse problema?**
+## Os Vértices representam, nesse esquema, pessoas. E as arestas o seus relacionamentos de amizade.
 
-### Respostas
+1. O grafo deve ser não dirigido, pois a amizade é recíproca.
+2. O vértice com maior grau é Carolina e Maria, pois ambas têm duas arestas
 
-Os vértices representam, nesse esquema, pessoas, e as arestas representam os seus relacionamentos de amizade.
-
-1.  O grafo deve ser **não dirigido**, pois a amizade é recíproca.
-2.  Os vértices com maior grau são **Carolina e Maria**, pois ambas têm duas arestas.
-
-![Grafo](https://graphonline.top/tmp/saved/gk/gkCzxWtvcOyOSiXA.png)
+   
+ ![Grafo](https://graphonline.top/tmp/saved/gk/gkCzxWtvcOyOSiXA.png)
 
 ### Plataformas
 
@@ -158,7 +160,8 @@ Os vértices representam, nesse esquema, pessoas, e as arestas representam os se
 
 ### Situação
 
-Considere um pequeno sistema urbano formado por cruzamentos e ruas de mão única.
+Considere um pequeno sistema urbano formado por cruzamentos e ruas de
+mão única.
 
 ### Faça
 
@@ -169,15 +172,15 @@ Considere um pequeno sistema urbano formado por cruzamentos e ruas de mão únic
 5.  Escolha um vértice e determine:
     -   seu grau de entrada;
     -   seu grau de saída.
-6.  Explique por que um grafo não dirigido não representa adequadamente essa situação.
+6.  Explique por que um grafo não dirigido não representa adequadamente
+    essa situação.
 
-### Respostas
+## |V| = 4.
+## |E| = 5.
+## Vértice Rua das flores, tem grau de entrada 1 e grau de saída 2.
 
--   `|V| = 4`
--   `|E| = 5`
--   Vértice **Rua das Flores**: grau de entrada = 1 e grau de saída = 2.
+ ![Grafo](https://graphonline.top/tmp/saved/Zj/ZjLsUKpICjIgVvgi.png)
 
-![Grafo](https://graphonline.top/tmp/saved/Zj/ZjLsUKpICjIgVvgi.png)
 
 ### Plataformas
 
@@ -204,14 +207,15 @@ A professora apresentará dois grafos para comparação.
 
 ### Registro sugerido
 
-| Vértice do grafo G | Vértice correspondente no grafo H |
-|--------------------|-----------------------------------|
-|                    |                                   |
-|                    |                                   |
-|                    |                                   |
-|                    |                                   |
+  Vértice do grafo G   Vértice correspondente no grafo H
+  -------------------- -----------------------------------
+                       
+                       
+                       
+                       
 
-> Não considere apenas a aparência dos desenhos. Grafos desenhados de formas diferentes podem apresentar a mesma estrutura.
+> Não considere apenas a aparência dos desenhos. Grafos desenhados de
+> formas diferentes podem apresentar a mesma estrutura.
 
 ### Plataformas
 
@@ -223,7 +227,8 @@ A professora apresentará dois grafos para comparação.
 
 ## 8. Atividade 6 - Construindo subgrafos
 
-A partir do grafo `G` indicado pela professora, construa **dois subgrafos diferentes**.
+A partir do grafo `G` indicado pela professora, construa **dois
+subgrafos diferentes**.
 
 ### Para cada subgrafo
 
@@ -257,7 +262,8 @@ A partir do grafo `G` indicado pela professora, construa **dois subgrafos difere
 
 ## 9. Atividade 7 - Desafio da sequência de graus
 
-Construa um **grafo simples** de acordo com a sequência de graus indicada pela professora.
+Construa um **grafo simples** de acordo com a sequência de graus
+indicada pela professora.
 
 ### Faça
 
@@ -270,12 +276,12 @@ Construa um **grafo simples** de acordo com a sequência de graus indicada pela 
 
 ### Registro
 
-| Vértice | Grau |
-|---------|------|
-|         |      |
-|         |      |
-|         |      |
-|         |      |
+  Vértice     Grau
+  --------- ------
+            
+            
+            
+            
 
 **Sequência final de graus:** `( ______________________________ )`
 
@@ -291,19 +297,23 @@ Construa um **grafo simples** de acordo com a sequência de graus indicada pela 
 
 ### Graph Online
 
-Indicado para construção visual rápida de grafos e exploração das conexões.
+Indicado para construção visual rápida de grafos e exploração das
+conexões.
 
 ### diagrams.net
 
-Indicado para desenhar grafos, redes, mapas simplificados e modelos de situações-problema.
+Indicado para desenhar grafos, redes, mapas simplificados e modelos de
+situações-problema.
 
 ### Graphviz
 
-Indicado para representar grafos por meio de uma descrição textual/código.
+Indicado para representar grafos por meio de uma descrição
+textual/código.
 
 ### Google Colab + Python/NetworkX
 
-Indicado para relacionar os conceitos da Teoria dos Grafos à implementação computacional.
+Indicado para relacionar os conceitos da Teoria dos Grafos à
+implementação computacional.
 
 ### Canva
 
@@ -311,7 +321,8 @@ Pode ser utilizado nas atividades de modelagem predominantemente visual.
 
 ### Papel e lápis
 
-Continua sendo uma opção adequada para os exercícios conceituais e para os primeiros esboços.
+Continua sendo uma opção adequada para os exercícios conceituais e para
+os primeiros esboços.
 
 ------------------------------------------------------------------------
 
@@ -348,6 +359,8 @@ Ao final da aula, entregue **um único documento** contendo:
 
 ## 13. Referência
 
-GOMES, Paulo César Rodacki. **Grafos: conceitos fundamentais, algoritmos e aplicações**. Blumenau: Editora IFC, 2022.
+GOMES, Paulo César Rodacki. **Grafos: conceitos fundamentais, algoritmos
+e aplicações**. Blumenau: Editora IFC, 2022.
 
-Material de apoio elaborado a partir do **Capítulo 1 - Conceitos Fundamentais**.
+Material de apoio elaborado a partir do **Capítulo 1 - Conceitos
+Fundamentais**.

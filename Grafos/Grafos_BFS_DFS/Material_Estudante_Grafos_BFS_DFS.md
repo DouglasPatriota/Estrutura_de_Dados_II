@@ -158,12 +158,26 @@ for nome, rede in [("Normal", grafo),
 
 ## 9. Questões para reflexão
 
-1. Por que um grafo representa melhor a rede de conexões do que uma árvore binária?
-2. Em qual condição BFS encontra o menor caminho? O que significa “menor”?
-3. Por que DFS pode retornar um caminho diferente de BFS?
-4. O que ocorre se não utilizarmos um conjunto de visitados?
-5. Quais informações adicionais seriam necessárias para avaliar tempo ou custo de uma rota?
-6. Por que o resultado do algoritmo não pode ser usado para orientar um voo real?
+### 1. Por que grafo é melhor que árvore binária?
+* **Permite ciclos:** Árvores não têm circuitos fechados.
+* **Sem limites:** Cidades podem ter várias conexões, não apenas duas.
+
+### 2. Quando o BFS acha o menor caminho e o que significa "menor"?
+* **Condição:** Apenas em grafos sem pesos nas linhas.
+* **Significado de "menor":** Rota com menos escalas/paradas.
+
+### 3. Por que o DFS dá um caminho diferente do BFS?
+* **Estratégias opostas:** BFS busca por camadas próximas; DFS vai direto até o fundo de um único ramo.
+
+### 4. O que acontece sem o conjunto de visitados?
+* **Loop infinito:** O código anda em círculos nas rotas e trava o sistema.
+
+### 5. O que falta para avaliar tempo ou custo?
+* **Pesos nas arestas:** Quilometragem, tempo de voo e preço da passagem.
+
+### 6. Por que não serve para um voo real?
+* **Modelo teórico:** Ignora clima, tráfego aéreo, combustível e regras da ANAC.
+
 
 ## 10. Referências
 
